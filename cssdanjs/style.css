@@ -1,0 +1,171 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../assets/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: rgb(255, 255, 255);
+}
+
+/* Css Nvbar */
+li, a, button{
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 30px 10px; */
+  background:#4FC3A1;
+  border-radius: 3px;     
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logo a{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 2rem 8rem 2rem 2rem;
+}
+.nav_links{
+  list-style: none;
+  margin-left: 600px;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 25px;
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: 2px;
+  height: 20px;
+}
+.nav_links li:hover{
+border-bottom:1px #ffffff;
+
+}
+
+/* .nav_links li::after{
+content: '';
+display: block;
+height: 2px;
+width: 50px;
+background-color: rgb(224, 219, 219);
+  transition: 0.5s;
+} */
+.btn-keluar{
+  background-color:#4FC3A1;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.btn-keluar:hover{
+  transition: 0.3s;
+  background-color: #259574;
+}
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+  color:black;
+  border-bottom: 1px solid;
+}
+/* .nav_links  a::after {
+    border-bottom: 0.1rem solid #000;
+    transform: scaleX(0);
+    transition: 0.6s;
+}
+.nav_links  a:hover ::after {
+  transform: scaleX(1);
+} */
+/* Penutup */
+
+
+/* Penjelasan */
+.text-penjelasan li{
+  text-align: justify;
+  margin-top: 30px;
+  color: black;
+  list-style: none;
+}
+.text-penjelasan-obat-bebas li{
+  text-align: justify;
+  margin-top: 60px;
+  color: black;
+  list-style: none;
+} 
+.text-penjelasan-obat-terbatas li{
+  text-align: justify;
+  margin-top: 60px;
+  color: black;
+  list-style: none;
+} 
+/* Tutup penjelasan */
+.img-obat-bebas {
+  width: 26rem;
+  height: 19rem;
+}
+
+#hero {
+  height: 400px;
+  background-size: cover;
+  background-image: url(../assets/image/obat.jpg);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+}
+
+p {
+  border: 8px solid white;
+  padding: 2rem 2rem;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Poppins";
+  font-weight: 700;
+  color: white;
+}
+
+.title p {
+  color: black;
+}
+
+#about {
+  top: 400px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 1000px;
+  z-index: 10;
+  background-color: white;
+}
+
+hr {
+  margin: 0 auto;
+  margin-top: -30px;
+  width: 100px;
+  text-align: center;
+  height: 3px;
+  background-color: black;
+}
+/* #home{
+  z-index: 999;
+} */
